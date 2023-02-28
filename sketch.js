@@ -185,7 +185,7 @@ function handlePlayerArrowCollision() {
       /**Atualize o código aqui para que a vida do computador 
       seja reduzida se a flecha do jogador atingir o alvo***/
       computerArcherLife -= 1;
-      computer.reduceLife(computerAcherLife);
+      computer.reduceLife(computerArcherLife);
 
       if (computerArcherLife <= 0) {
         computerArcher.collapse = true;
